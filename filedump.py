@@ -22,7 +22,7 @@ def printhelp():
 
 paths = []        # Used to store valid paths
 displaynames = [] # Used to store file names without their path, for output
-invalidargs = []  # Used to store invalid arguments, currently not being used
+invalidargs = []  # Used to store invalid arguments
 output = []       # Used to store each row of formatted output
 columnwidths = [] # Holds the maximum width of each column
 padding = 2       # Adds space between each column
