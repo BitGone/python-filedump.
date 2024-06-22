@@ -3,7 +3,7 @@ import sys
 
 
 ###
-### filedump was created to quickly compare the first few bytes of one PNG with another PNG 
+### filedump was created to quickly compare the first few bytes of one jpg with another jpg 
 ### to aid in the debugging of another program. I thought it was useful...
 ###
 
