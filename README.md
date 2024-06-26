@@ -51,5 +51,6 @@ Options:
  <any number>,   How many bytes to display, defaults to 16.
 
            -k,   Will keep the script alive by requiring the enter key to be pressed
-                  before exiting. This is useful if it launches in another window.
+                 before exiting. This is useful if it launches in another window.
+           -h,   Display this help message
 ```
