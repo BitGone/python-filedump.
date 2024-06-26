@@ -31,3 +31,25 @@ D 00000001 01     D 01010000 50 P
 E 00000000 00     E 00111000 38 8
 F 01100000 60     F 00100000 20
 ```
+
+Example input:
+```
+C:\Users\User\Python> python filedump.py -h
+```
+
+Example output:
+```
+filedump outputs the first <bytes> of a file(s).
+
+                        Output format:
+<hex addr>  <byte in binary>  <byte in hex>  <byte as char>
+
+Use:
+  filedump.py [options] file1 [file2, file3...]
+
+Options:
+ <any number>,   How many bytes to display, defaults to 16.
+
+           -k,   Will keep the script alive by requiring the enter key to be pressed
+                  before exiting. This is useful if it launches in another window.
+```
