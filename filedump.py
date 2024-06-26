@@ -3,7 +3,7 @@ import sys
 
 
 ###
-### filedump was created to quickly compare the first few bytes of one jpg with another jpg 
+### filedump was created to quickly compare the first few bytes of one PNG with another PNG 
 ### to aid in the debugging of another program. I thought it was useful...
 ###
 
@@ -16,13 +16,14 @@ def printhelp():
     print("\nOptions:")
     print(" <any number>,   How many bytes to display, defaults to 16.")
     print("\n           -k,   Will keep the script alive by requiring the enter key to be pressed")
-    print("                  before exiting. This is useful if it launches in another window.\n")
+    print("                 before exiting. This is useful if it launches in another window.")
+    print("\n           -h,   Display this help message")
     if keepalive : input("Press enter to exit")
     exit()
 
 paths = []        # Used to store valid paths
 displaynames = [] # Used to store file names without their path, for output
-invalidargs = []  # Used to store invalid arguments
+invalidargs = []  # Used to store invalid arguments, currently not being used
 output = []       # Used to store each row of formatted output
 columnwidths = [] # Holds the maximum width of each column
 padding = 2       # Adds space between each column
